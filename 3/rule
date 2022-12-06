@@ -1,0 +1,8 @@
+rule first
+{
+	strings: 
+		$a = "hello"
+		
+	condition:
+		$a
+}
